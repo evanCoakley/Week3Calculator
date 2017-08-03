@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 .calc {
@@ -10,15 +11,21 @@
     flex-wrap: wrap;
     flex-basis: 30%;
     padding: 0px 0px;
+    font-size: 200%;
+    font-weight: lighter;
+    color: white;
+    background-color: #75c275;
 }
 
 .button {
-    flex-basis: 25%;
+    flex-basis: 24%;
     text-align: center;
-    padding: 35px 0px;
+    padding: 26px 0px;
+    border: .5px solid white;
+    border-collapse: collapse;
 }
 
 #display {
     flex-basis: 75%;
-    padding: 25px 0px;
+    padding: 15px 0px;
 }
