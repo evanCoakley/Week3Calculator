@@ -9,7 +9,7 @@
 .calc {
     display: flex;
     flex-wrap: wrap;
-    flex-basis: 30%;
+    flex-basis: 37%;
     padding: 0px 0px;
     font-size: 200%;
     font-weight: lighter;
@@ -18,14 +18,18 @@
 }
 
 .button {
+    flex: 1;
     flex-basis: 24%;
     text-align: center;
     padding: 26px 0px;
     border: .5px solid white;
-    border-collapse: collapse;
 }
 
 #display {
-    flex-basis: 75%;
+    flex-basis: 74%;
     padding: 15px 0px;
+}
+
+#delete {
+    width: 4em;
 }
