@@ -9,7 +9,7 @@
 .calc {
     display: flex;
     flex-wrap: wrap;
-    flex-basis: 37%;
+    flex-basis: 27%;
     padding: 0px 0px;
     font-size: 200%;
     font-weight: lighter;
@@ -17,7 +17,7 @@
     background-color: #75c275;
 }
 
-.button {
+.button, .delete, .equal {
     flex: 1;
     flex-basis: 24%;
     text-align: center;
@@ -25,11 +25,15 @@
     border: .5px solid white;
 }
 
-#display {
-    flex-basis: 74%;
+.screen {
+    flex-basis: 75%;
     padding: 15px 0px;
 }
 
 #delete {
     width: 4em;
+}
+
+.function1 {
+    background-color: #a3c8a3;
 }
