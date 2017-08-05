@@ -14,7 +14,7 @@
     font-size: 200%;
     font-weight: lighter;
     color: white;
-    background-color: #75c275;
+    background-color: #61B34F;
 }
 
 .button, .delete, .equal {
@@ -22,18 +22,25 @@
     flex-basis: 24%;
     text-align: center;
     padding: 26px 0px;
-    border: .5px solid white;
+    border: .5px solid #A1D099;
 }
 
 .screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-basis: 75%;
     padding: 15px 0px;
 }
 
-#delete {
-    width: 4em;
+.function1 {
+    background-color: #83C178;
 }
 
-.function1 {
-    background-color: #a3c8a3;
+.equal:hover {
+    background-color: #A1D099;
+}
+
+.delete:hover {
+    background-color: #A1D099;
 }

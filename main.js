@@ -40,23 +40,3 @@ for (var i = 0; i < keys.length; i++) {
 
 
 
-
-
-
-
-
-//     let key = key[i];
-//     if (key.classname.includes("button")) {
-//         key.addEventListener('click', function () {
-//             key.innerHTML += display;
-
-
-
-
-//         });
-//     }
-
-// }
-
-
-
